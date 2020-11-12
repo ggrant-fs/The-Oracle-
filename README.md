@@ -33,10 +33,7 @@ Link to Api: https://newsapi.org/
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
+### 
 #### MVP 
 - Built with HTML, CSS, and JavaScript.
 - Styled using Flexbox or Grid.
