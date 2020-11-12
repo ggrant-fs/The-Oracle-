@@ -9,9 +9,9 @@ The Orecle
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## API and Data Sample
-
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 Api used: NewsApi.org
+Link to Api: https://newsapi.org/
+
 
 {
     "status": "ok",
