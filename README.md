@@ -38,7 +38,6 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-
 - Built with HTML, CSS, and JavaScript.
 - Styled using Flexbox or Grid.
 - Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
@@ -49,8 +48,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
 - Add second API
 - have user pages
 - individual pages for each topic/api end point
@@ -59,17 +56,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|Nov 9| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Nov 10| Project Approval | Incomplete
-|Nov 12| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Nov 13| Pseudocode / actual code | Incomplete
-|Nov 16| MVP | Incomplete
+|Nov 12| Prompt / Wireframes / Priority Matrix / Timeframes /Project Approval| Incomplete
+|Nov 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Nov 14| Pseudocode/actual code | Incomplete
+|Nov 15| MVP| Incomplete
+|Nov 16| Final version | Incomplete
 |Nov 17| Presentations | Incomplete
 
 ## Priority Matrix
