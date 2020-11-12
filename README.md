@@ -79,7 +79,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | working on JavaScript/API | H | 4hrs per day| 24hrs max  | 24hrs |
 | working HTML/css | H | 3hrs| 3hrs per day | 21hrs max | 21hrs
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 7hrs| 7hrs | 43hrs |
 
 ## Code Snippet
 
