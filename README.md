@@ -1,14 +1,12 @@
 # Project Overview
 
-## Project Name
+## The Orecle
 
-The Orecle
-
-## Project Description
+## Description of application
 
 This project titled "The Orecle" is a news api that will display stories from major news outlets and top headlines 
 
-## API and Data Sample
+## API used for project
 Api used: NewsApi.org
 Link to Api: https://newsapi.org/
 
