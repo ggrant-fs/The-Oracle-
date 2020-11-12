@@ -41,14 +41,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP 
 
--Built with HTML, CSS, and JavaScript.
--Styled using Flexbox or Grid.
--Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
--Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
--Fulfill the build requirements you have specified in your MVP.
--Deployed site to a hosting service like Github Pages.
--Make commits to GitHub every day.
--A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
+- Built with HTML, CSS, and JavaScript.
+- Styled using Flexbox or Grid.
+- Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+- Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
+- Fulfill the build requirements you have specified in your MVP.
+- Deployed site to a hosting service like Github Pages.
+- Make commits to GitHub every day.
+- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
 - Find and use external api 
 - Render data on page 
