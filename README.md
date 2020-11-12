@@ -50,10 +50,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Make commits to GitHub every day.
 - A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
-
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
