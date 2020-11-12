@@ -6,7 +6,7 @@ The Orecle
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project titled "The Orecle" is a news api that will display stories from major news outlets and top headlines 
 
 ## API and Data Sample
 Api used: NewsApi.org
