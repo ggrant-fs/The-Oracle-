@@ -11,6 +11,23 @@ Use this section to describe your final project and perhaps any links to relevan
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+{
+    "status": "ok",
+    "totalResults": 852,
+    "articles": [
+        {
+            "source": {
+                "id": "vice-news",
+                "name": "Vice News"
+            },
+            "author": "Simeon Tegel, Deborah Bonello",
+            "title": "A Notorious Rebel Leader Just Got Peru's President Impeached From Prison",
+            "description": "Martín Vizcarra was fighting corruption hard. It got him fired.",
+            "url": "https://www.vice.com/en/article/wx8den/a-notorious-rebel-leader-just-got-perus-president-impeached-from-prison",
+            "urlToImage": "https://video-images.vice.com//articles/5fad73bd1e05c40095b15901/lede/1605202888238-gettyimages-51913152.jpeg?image-resize-opts=Y3JvcD0xeHc6MC43NjA2MjQ1OTc1NTMxMjN4aDtjZW50ZXIsY2VudGVyJnJlc2l6ZT0xMjAwOiomcmVzaXplPTEyMDA6Kg",
+            "publishedAt": "2020-11-12T18:05:52Z",
+            "content": "LIMA, Peru How does a democracy of 32 million people allow a rabble-rousing, former rebel leader to orchestrate, from his prison cell, the impeachment of a popular corruption-busting president?\r\nThat… [+6459 chars]"
+        }
 
 ## Wireframes
 
