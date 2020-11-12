@@ -1,5 +1,3 @@
-# The-Orecle-
-
 # Project Overview
 
 ## Project Name
