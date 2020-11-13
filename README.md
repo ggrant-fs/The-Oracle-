@@ -10,7 +10,7 @@ This project titled "The Orecle" is a news api that will display stories from ma
 Api used: NewsApi.org
 Link to Api: https://newsapi.org/
 
-
+'''javascript
 {
     "status": "ok",
     "totalResults": 852,
@@ -28,6 +28,7 @@ Link to Api: https://newsapi.org/
             "publishedAt": "2020-11-12T18:05:52Z",
             "content": "LIMA, Peru How does a democracy of 32 million people allow a rabble-rousing, former rebel leader to orchestrate, from his prison cell, the impeachment of a popular corruption-busting president?\r\nThat… [+6459 chars]"
         }
+'''	
 
 ## Wireframes
 
