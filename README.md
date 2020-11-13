@@ -102,7 +102,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 |Morning Project Assesment| H | 10-15 min| 10 min  | 10 min |
-| Response and request functionality of API and end points | H | 3hrs| 3hrs per day | 21hrs max | 21hrs
+| Response and request functionality of API and end points | H | 3hrs| pending | pending | pending
 | HTML development of blog post, headers, divs| H | 2hrs| 1.5hrs | 43hrs |
 | CSS development of flexbox for styling and render images| H | 2hrs
 |Dom integration for interaction of API with HTML| H | 2hrs
