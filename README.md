@@ -1,6 +1,6 @@
 # Project Overview
 
-## The Orecle
+## The Oracle
 
 ## Description of application
 
