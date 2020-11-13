@@ -27,7 +27,33 @@ Link to Api: https://newsapi.org/
             "urlToImage": "https://video-images.vice.com//articles/5fad73bd1e05c40095b15901/lede/1605202888238-gettyimages-51913152.jpeg?image-resize-opts=Y3JvcD0xeHc6MC43NjA2MjQ1OTc1NTMxMjN4aDtjZW50ZXIsY2VudGVyJnJlc2l6ZT0xMjAwOiomcmVzaXplPTEyMDA6Kg",
             "publishedAt": "2020-11-12T18:05:52Z",
             "content": "LIMA, Peru How does a democracy of 32 million people allow a rabble-rousing, former rebel leader to orchestrate, from his prison cell, the impeachment of a popular corruption-busting president?\r\nThat… [+6459 chars]"
-        }
+        },
+ {
+            "source": {
+                "id": null,
+                "name": "Los Angeles Times"
+            },
+            "author": "Hayley Smith",
+            "title": "Pilot killed when small plane crashes near Pacoima homes - Los Angeles Times",
+            "description": "A small plane crashes shortly before noon on a suburban street near Whiteman Airport, according to the Los Angeles Fire Department. Pilot dead.",
+            "url": "https://www.latimes.com/california/story/2020-11-12/small-plane-crashes-near-whiteman-airport-in-pacoima",
+            "urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/0fc3207/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F6e%2F14%2Fc020b78d4b22b8574d7092842419%2Fla-me-planepacoima-crash.jpg",
+            "publishedAt": "2020-11-12T21:35:00Z",
+            "content": "The pilot of a small plane was killed after crashing onto a suburban street near Whiteman Airport in Pacoima on Thursday morning, officials said.\r\nVideo from KTLA-TV Channel 5 showed a fiery wreck in… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Ari Levy",
+            "title": "Palantir reports 52% sales growth in first earnings statement since public market debut - CNBC",
+            "description": "Palantir held its highly-anticipated direct listing in September and is now trying to show investors it can expand its customer base.",
+            "url": "https://www.cnbc.com/2020/11/12/palantir-reports-t.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106723906-16014854632020-09-30t145935z_1098314869_rc229j9zgxcg_rtrmadp_0_palantir-ipo.jpeg?v=1601485495",
+            "publishedAt": "2020-11-12T21:08:00Z",
+            "content": "Palantir, the maker of software and analytics tools for the defense industry and large corporations, reported 52% revenue growth in its first earnings announcement since going public in September.\r\nT… [+2613 chars]"
+        }	
 ```	
 
 ## Wireframes
