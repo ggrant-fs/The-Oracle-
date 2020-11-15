@@ -82,7 +82,7 @@ Link to Api: https://newsapi.org/
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Nov 12| Prompt / Wireframes / Priority Matrix / Timeframes /Project Approval| Incomplete
+|Nov 12| Prompt / Wireframes / Priority Matrix / Timeframes /Project Approval| complete
 |Nov 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Nov 14| Pseudocode/actual code | Incomplete
 |Nov 15| MVP| Incomplete
