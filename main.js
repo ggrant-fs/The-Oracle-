@@ -7,9 +7,11 @@ const newsReports=async ()=>{
         let apiResponse = bbcApi.data.articles[0]
         let usNewsApi = await axios.get(url2)
         let usNews = usNewsApi.data.articles[0]
-        // console.log(usNews)
+        let usNews2= usNewsApi.data.articles[1]
+        // console.log(usNews2)
         mainImg(apiResponse)
         pic1(usNews)
+        pic2(usNews2)
 
     }catch(error){
 
@@ -25,11 +27,22 @@ function mainImg(apiResponse){
 }
 
 function pic1(usNews){
- console.log(usNews)
+//  console.log(usNews)
  let newsPic1 = document.querySelector('#sub-block1')
  newsPic1.style.backgroundImage = `url("${usNews.urlToImage}")`
 }
 
-function pic2(){
+function pic2(usNews2){
+console.log(usNews2)
+ let newsPic2 = document.querySelector('#sub-block3')
+ newsPic2.style.backgroundImage = `url("${usNews2.urlToImage}")`
 
+}
+
+function pic3(){
+
+}
+
+function pic4(){
+    
 }
