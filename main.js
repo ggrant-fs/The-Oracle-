@@ -7,11 +7,11 @@ const newsReports=async ()=>{
         let bbcApi = await axios.get(url)
         let usNewsApi = await axios.get(url2)
         let scienceApi= await axios.get(url3)
-        let apiResponse = bbcApi.data.articles[0]
-        let usNews = usNewsApi.data.articles[0]
-        let usNews2= usNewsApi.data.articles[3]
-        let sciApi = scienceApi.data.articles[1]
-        let sciApi2= scienceApi.data.articles[2]
+        let apiResponse = bbcApi.data.articles[20]
+        let usNews = usNewsApi.data.articles[13]
+        let usNews2= usNewsApi.data.articles[4]
+        let sciApi = scienceApi.data.articles[0]
+        let sciApi2= scienceApi.data.articles[1]
         mainImg(apiResponse)
         pic1(usNews)
         pic2(usNews2)
