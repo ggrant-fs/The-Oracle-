@@ -58,7 +58,7 @@ Link to Api: https://newsapi.org/
 
 ## Wireframes
 
-![alt text](https://i.imgur.com/OAuQIfb.jpg)
+![alt text](https://i.imgur.com/T2JfsDt.jpg)
 
 ### 
 #### MVP 
