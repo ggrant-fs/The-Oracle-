@@ -1,7 +1,7 @@
 # Project Overview
 
 ## The Oracle
-
+ Link : https://ggrant-fs.github.io/The-Oracle-/
 ## Description of application
 
 This project titled "The Orecle" is a news api that will display stories from major news outlets and top headlines 
