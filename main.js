@@ -5,13 +5,13 @@ const newsReports=async ()=>{
     const url3 ='https://saurav.tech/NewsAPI/top-headlines/category/science/us.json'
     try{
         let bbcApi = await axios.get(url)
-        let apiResponse = bbcApi.data.articles[0]
         let usNewsApi = await axios.get(url2)
+        let scienceApi= await axios.get(url3)
+        let apiResponse = bbcApi.data.articles[0]
         let usNews = usNewsApi.data.articles[0]
         let usNews2= usNewsApi.data.articles[1]
-        let scienceApi= await axios.get(url3)
-        let sciApi = scienceApi.data.articles[3]
-        let sciApi2= scienceApi.data.articles[1]
+        let sciApi = scienceApi.data.articles[1]
+        let sciApi2= scienceApi.data.articles[2]
         mainImg(apiResponse)
         pic1(usNews)
         pic2(usNews2)
@@ -28,6 +28,8 @@ const newsReports=async ()=>{
 }
 newsReports()
 
+
+// -----image functions----//
 function mainImg(apiResponse){
   let mainPic = document.querySelector('#featured-article')
   mainPic.style.backgroundImage = `url("${apiResponse.urlToImage}")`
@@ -55,6 +57,7 @@ let newsPic4 = document.querySelector('#sub-block7')
 newsPic4.style.backgroundImage = `url("${sciApi2.urlToImage}")`
 }
 
+//----article content functions----// 
 function content1(usNews){
  let story1 = document.querySelector('#article1')
  story1.innerText = `${usNews.title} `
