@@ -94,5 +94,21 @@ body{
     flex-basis: 60%;
 }
 #article1,#article2,#article3,#article4{
-    font-size: 40px;
+    font-size: 30px;
 }
+
+
+@media(max-width:800px){
+     body{
+         background-color: aqua;
+     }
+     #article1,#article2,#article3,#article4{
+        font-size: 25px;
+    }
+}
+
+/* @media(max-widht:750px){
+    #article1,#article2,#article3,#article4{
+        font-size: 10px;
+    }
+} */
