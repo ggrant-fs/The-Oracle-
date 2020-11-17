@@ -3,7 +3,16 @@ body{
    margin:0;
    padding:0;
 } 
+#title{
+    font-family: 'Monoton', cursive;
+    color:#F0ECEC;
+    font-size: 150px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
 
+    
+}
 #test{
     display: flex;
     height: 50px;
@@ -12,12 +21,17 @@ body{
 }
 nav{
    margin-left: 100px;
+   
 }
 li{
     display: inline;
     padding:80px;
  
 }
+a{
+    color: #F0ECEC;
+}
+
 #featured-article{
     background-repeat: no-repeat;
     background-size: cover;
