@@ -10,14 +10,18 @@ const newsReports=async ()=>{
         let usNews = usNewsApi.data.articles[0]
         let usNews2= usNewsApi.data.articles[1]
         let scienceApi= await axios.get(url3)
-        let sciApi = scienceApi.data.articles[0]
+        let sciApi = scienceApi.data.articles[3]
         let sciApi2= scienceApi.data.articles[1]
         mainImg(apiResponse)
         pic1(usNews)
         pic2(usNews2)
         pic3(sciApi)
         pic4(sciApi2)
-
+        content1(usNews)
+        content2(usNews2)
+        content3(sciApi)
+        content4(sciApi2)
+        console.log(sciApi)
     }catch(error){
 
     }
@@ -49,4 +53,26 @@ function pic3(sciApi){
 function pic4(sciApi2){
 let newsPic4 = document.querySelector('#sub-block7')
 newsPic4.style.backgroundImage = `url("${sciApi2.urlToImage}")`
+}
+
+function content1(usNews){
+ let story1 = document.querySelector('#article1')
+ story1.innerText = `${usNews.title} `
+}
+
+
+function content2(usNews2){
+let story2 = document.querySelector('#article2')
+story2.innerText = `${usNews2.title}`
+}
+
+function content3(sciApi){
+let story3 = document.querySelector('#article3')
+story3.innerText = `${sciApi.title}`
+}
+
+function content4(sciApi2){
+ console.log(sciApi2)
+ let story4 = document.querySelector('#article4')
+ story4.innerText = `${sciApi2.title}`
 }
