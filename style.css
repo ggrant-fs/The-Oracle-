@@ -7,6 +7,21 @@ body{
 body{
    margin:0;
 }
+
+#test{
+    display: flex;
+    height: 50px;
+    flex-basis: 100%;
+    background-color: black;
+}
+nav{
+   margin-left: 100px;
+}
+li{
+    display: inline;
+    padding:80px;
+ 
+}
 #featured-article{
     background-repeat: no-repeat;
     background-size: cover;
