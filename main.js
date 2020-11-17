@@ -9,7 +9,7 @@ const newsReports=async ()=>{
         let scienceApi= await axios.get(url3)
         let apiResponse = bbcApi.data.articles[0]
         let usNews = usNewsApi.data.articles[0]
-        let usNews2= usNewsApi.data.articles[1]
+        let usNews2= usNewsApi.data.articles[3]
         let sciApi = scienceApi.data.articles[1]
         let sciApi2= scienceApi.data.articles[2]
         mainImg(apiResponse)
@@ -21,6 +21,10 @@ const newsReports=async ()=>{
         content2(usNews2)
         content3(sciApi)
         content4(sciApi2)
+        button1(usNews)
+        button2(usNews2)
+        button3(sciApi)
+        button4(sciApi2)
         console.log(sciApi)
     }catch(error){
 
@@ -79,3 +83,25 @@ function content4(sciApi2){
  let story4 = document.querySelector('#article4')
  story4.innerText = `${sciApi2.title}`
 }
+
+function button1(usNews){
+const form1 = document.querySelector('#form1')
+form1.setAttribute('action',`${usNews.url}`)
+}
+
+function button2(usNews){
+const form2 = document.querySelector('#form2')
+form2.setAttribute('action',`${usNews.url}`)
+}
+
+function button3(sciApi){
+let form3 = document.querySelector('#form3')
+form3.setAttribute('action',`${sciApi.url}`)
+}
+
+function button4(sciApi2){
+let form4 = document.querySelector('#form4')
+form4.setAttribute('action',`${sciApi2.url}`)
+}
+
+
