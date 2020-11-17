@@ -8,10 +8,12 @@ body{
    margin:0;
 }
 #featured-article{
-    background-color: turquoise;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     height: 500px;
     flex-basis: 100%;
+
 }
 #block-1{
     background-color: tomato;
