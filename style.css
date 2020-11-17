@@ -81,7 +81,7 @@ body{
     flex-basis: 60%;
 }
 #sub-block5{
-    background-color: gray;
+    background-position: center;
     height:200px;
     flex-basis:40%;
 }
@@ -91,7 +91,7 @@ body{
     flex-basis: 60%;
 }
 #sub-block7{
-    background-color: wheat;
+   background-position: center;
     height:200px;
     flex-basis:40%;
 }
