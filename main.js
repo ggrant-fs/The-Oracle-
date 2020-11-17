@@ -3,25 +3,18 @@ const newsReports=async ()=>{
     const url = 'https://saurav.tech/NewsAPI/everything/bbc-news.json'
     try{
         let bbcApi = await axios.get(url)
-        let apiResponse = bbcApi.data.articles
-        let sliceCopy = apiResponse.slice(0,10)
-        console.log(sliceCopy)
-        top10(sliceCopy)
-        test(sliceCopy)
+        let apiResponse = bbcApi.data.articles[0]
+        mainImg(apiResponse)
 
-        console.log(apiResponse)
     }catch(error){
 
     }
 }
 newsReports()
 
-function top10(sliceCopy){
-    sliceCopy.forEach((story)=>{
-        console.log(story.title)
-    })
-}
-
-function test(sliceCopy){
- console.log(sliceCopy[2])
+function mainImg(apiResponse){
+  console.log(apiResponse.urlToImage)
+  let mainPic = document.querySelector('#featured-article')
+  mainPic.style.backgroundImage = `url("${apiResponse.urlToImage}")`
+  
 }
