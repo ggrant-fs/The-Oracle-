@@ -60,7 +60,7 @@ body{
 }
 
 #sub-block1{
-    background-color: teal;
+    background-position: center;
     height: 200px;
     flex-basis: 40%;
 }
