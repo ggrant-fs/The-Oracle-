@@ -15,37 +15,30 @@ body{
     flex-basis: 100%;
 
 }
-#block-1{
-    background-color: tomato;
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    flex-basis: 100%;
-}
 
 #block-1{
-    background-color:orchid;
+ 
     display: flex;
     flex-direction: row;
     height: 200px;
     flex-basis: 100%;
 }
 #block-2{
-    background-color: blue;
+
     display: flex;
     flex-direction: row;
     height: 200px;
     flex-basis: 100%;
 }
 #block-3{
-    background-color: pink;
+
     display: flex;
     flex-direction: row;
     height: 200px;
     flex-basis: 100%;
 }
 #block-4{
-    background-color: tomato;
+  
     display: flex;
     flex-direction: row;
     height: 200px;
@@ -66,7 +59,7 @@ body{
 }
 
 #sub-block2{
-    background-color: yellow;
+   
     height:200px;
     flex-basis: 60%;
 }
@@ -76,7 +69,7 @@ body{
     flex-basis:40%;
 }
 #sub-block4{
-    background-color: red;
+   
     height:200px;
     flex-basis: 60%;
 }
@@ -86,7 +79,7 @@ body{
     flex-basis:40%;
 }
 #sub-block6{
-    background-color: yellowgreen;
+   
     height:200px;
     flex-basis: 60%;
 }
@@ -96,7 +89,10 @@ body{
     flex-basis:40%;
 }
 #sub-block8{
-    background-color: purple;
+   
     height:200px;
     flex-basis: 60%;
+}
+#article1,#article2,#article3,#article4{
+    font-size: 40px;
 }
